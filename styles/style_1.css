@@ -6,6 +6,9 @@
 body {
     background-color: #000;
     color: antiquewhite;
+    background-image: url(../images/WALLPAPER_DESIGN_FOR_WEB.gif);
+    background-position: center;
+    background-size: contain;
 }
 
 header {
@@ -49,7 +52,7 @@ main {
     margin: 200px;
     line-height: 20px;
     word-spacing: 5px;
-    font-family: 'Monoton', cursive;
+    font-family: 'Orbitron', sans-serif;
 
 }
 
@@ -59,6 +62,7 @@ main h2 {
 
 main p {
     padding: 7px;
+    font-size: large;
 }
 
 footer {
