@@ -32,8 +32,6 @@ header h1 {
     font-size: xx-large;
 }
 
-
-
 nav {
     display: inline-flex;
     justify-content: space-evenly;
@@ -47,53 +45,3 @@ nav a {
     text-decoration-style: double;
     font-family: 'Black Ops One', cursive;
 }
-
-main {
-    text-align: center;
-    margin: 200px;
-    line-height: 20px;
-    word-spacing: 5px;
-    font-family: 'Orbitron', sans-serif;
-
-}
-
-main h2 {
-    padding: 7px;
-}
-
-main p {
-    padding: 7px;
-    font-size: large;
-}
-
-footer {
-    background-color: chocolate;
-    background-image:  radial-gradient(rgb(150, 5, 5), rgb(184, 108, 8));
-    border: 1px solid black;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    padding: 5px;
-    color: rgb(5, 19, 34);
-    font-family: 'Black Ops One', cursive;
-}
-
-footer a {
-    text-decoration-style: double;
-    color: rgb(5, 19, 34);
-    
-}
-
-section {
-    text-align: center;
-    
-}
-
-.logo {
-    width: fit-content;
-    align-self: center;
-}
-
-
-
-
