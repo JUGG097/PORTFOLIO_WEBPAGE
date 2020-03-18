@@ -6,11 +6,13 @@
 body {
     background-color: #000;
     color: antiquewhite;
-    background-image: url(../images/WALLPAPER_DESIGN_FOR_WEB.gif);
+    background-image: black;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* ---------------HEADER------------ */
 
 header {
     background-color: chocolate;
@@ -20,12 +22,21 @@ header {
     display: flex;
     flex-direction: column;
     margin: 10px;
+    padding: 10px;
 }
+
+
 
 .title a {
     text-decoration: none;
     color: antiquewhite;
 }
+
+.title {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
 
 header h1 {
     font-family: 'Orbitron', sans-serif;
@@ -45,3 +56,47 @@ nav a {
     text-decoration-style: double;
     font-family: 'Black Ops One', cursive;
 }
+
+.title-logo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.title-logo img {
+    border-radius: 25%;
+}
+
+/* ------------------- /HEADER ------------------------ */
+
+
+/* --------------------------- MAIN ------------------------------*/
+
+main {
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* -------------------------- /MAIN ---------------------------- */
+
+
+/* ------------ FOOTER --------------- */
+
+footer {
+    background-color: chocolate;
+    background-image:  radial-gradient(rgb(150, 5, 5), rgb(184, 108, 8));
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 5px;
+    color: rgb(5, 19, 34);
+    font-family: 'Black Ops One', cursive;
+}
+
+footer a {
+    text-decoration-style: double;
+    color: rgb(5, 19, 34);
+    
+}
+
+/* ------------------------- /FOOTER ------------------------------ */

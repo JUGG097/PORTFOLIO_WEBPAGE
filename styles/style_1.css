@@ -12,6 +12,8 @@ body {
     background-repeat: no-repeat;
 }
 
+/* -------------- HEADER ------------------ */
+
 header {
     background-color: chocolate;
     background-image: radial-gradient(rgb(150, 5, 5), rgb(184, 108, 8));
@@ -20,6 +22,7 @@ header {
     display: flex;
     flex-direction: column;
     margin: 10px;
+    padding: 10px;
 }
 
 .title a {
@@ -48,6 +51,20 @@ nav a {
     font-family: 'Black Ops One', cursive;
 }
 
+section {
+    text-align: center;
+    
+}
+
+.logo {
+    width: fit-content;
+    align-self: center;
+}
+
+/* ----------------------- /HEADER --------------------- */
+
+
+/* -------------------- MAIN ---------------- */
 main {
     text-align: center;
     margin: 200px;
@@ -65,6 +82,10 @@ main p {
     padding: 7px;
     font-size: large;
 }
+
+/* ------------------------- /MAIN --------------------------- */
+
+/* ------------------ FOOTER --------------------------- */
 
 footer {
     background-color: chocolate;
@@ -84,15 +105,9 @@ footer a {
     
 }
 
-section {
-    text-align: center;
-    
-}
+/* ----------------------- /FOOTER ---------------------- */
 
-.logo {
-    width: fit-content;
-    align-self: center;
-}
+
 
 
 
