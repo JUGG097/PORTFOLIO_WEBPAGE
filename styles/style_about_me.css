@@ -17,7 +17,7 @@ body {
 header {
     background-color: chocolate;
     background-image: radial-gradient(rgb(150, 5, 5), rgb(184, 108, 8));
-    border: 1px solid black;
+    border: 3px solid antiquewhite;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -74,6 +74,17 @@ nav a {
 
 main {
     font-family: 'Orbitron', sans-serif;
+    word-spacing: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+main h2 {
+    color: darkred;
+}
+
+main p {
+    font-family: 'Source Code Pro', monospace;
 }
 
 /* -------------------------- /MAIN ---------------------------- */
@@ -84,7 +95,7 @@ main {
 footer {
     background-color: chocolate;
     background-image:  radial-gradient(rgb(150, 5, 5), rgb(184, 108, 8));
-    border: 1px solid black;
+    border: 3px solid antiquewhite;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
