@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000;
+    color: antiquewhite;
+    background-image: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ---------------HEADER------------ */
+
+header {
+    background-color: chocolate;
+    background-image: radial-gradient(rgb(150, 5, 5), rgb(184, 108, 8));
+    border: 3px solid antiquewhite;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0px 10px 0px;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+
+
+.title a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.title {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large;
+}
+
+nav {
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+nav a {
+    
+    color: rgb(5, 19, 34);
+    text-decoration-style: double;
+    font-family: 'Black Ops One', cursive;
+}
+
+.title-logo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.title-logo img {
+    border: 3px solid antiquewhite;
+    border-radius: 25%;
+}
+
+/* ------------------- /HEADER ------------------------ */
+
+/* --------------------------- MAIN ------------------------------*/
+
+main {
+    font-family: 'Orbitron', sans-serif;
+    word-spacing: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+main h2 {
+    color: darkred;
+    background-color: black;
+    position: sticky;
+    top: 150px;
+}
+
+
+
+/* -------------------------- /MAIN ---------------------------- */
+
+
+/* ------------ FOOTER --------------- */
+
+footer {
+    background-color: chocolate;
+    background-image:  radial-gradient(rgb(150, 5, 5), rgb(184, 108, 8));
+    border: 3px solid antiquewhite;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 5px;
+    color: rgb(5, 19, 34);
+    font-family: 'Black Ops One', cursive;
+}
+
+footer a {
+    text-decoration-style: double;
+    color: rgb(5, 19, 34);
+    
+}
+
+/* ------------------------- /FOOTER ------------------------------ */
