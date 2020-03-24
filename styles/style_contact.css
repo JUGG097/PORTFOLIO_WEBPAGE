@@ -88,6 +88,16 @@ main h2 {
     top: 150px;
 }
 
+main a {
+    text-decoration-style: double;
+    color: orangered;
+}
+
+main span {
+    color: orangered;
+    font-family: 'Nunito', sans-serif;
+}
+
 
 
 /* -------------------------- /MAIN ---------------------------- */
