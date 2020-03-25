@@ -88,6 +88,25 @@ main h2 {
     top: 150px;
 }
 
+main h3 {
+    background-color: darkorange;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main a {
+    text-decoration-style: double;
+    color: orangered;
+    font-family: 'Nunito', sans-serif;
+}
+
+main p {
+    font-family: 'Source Code Pro', monospace;
+}
 
 
 /* -------------------------- /MAIN ---------------------------- */

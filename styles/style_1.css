@@ -76,20 +76,23 @@ nav a {
 /* -------------------- MAIN ---------------- */
 main {
     text-align: center;
-    margin: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
     line-height: 20px;
     word-spacing: 5px;
     font-family: 'Orbitron', sans-serif;
+    color: darkorange;
 
 }
 
 main h2 {
     padding: 7px;
+    font-size: x-large;
 }
 
 main p {
     padding: 7px;
-    font-size: large;
+    font-size: x-large;
 }
 
 /* ------------------------- /MAIN --------------------------- */

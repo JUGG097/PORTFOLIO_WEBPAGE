@@ -89,6 +89,10 @@ main h2 {
     top: 150px;
 }
 
+main h3 {
+    background-color: darkorange;
+}
+
 main p {
     font-family: 'Source Code Pro', monospace;
 }

@@ -88,14 +88,23 @@ main h2 {
     top: 150px;
 }
 
+main h3 {
+    background-color: darkorange;
+}
+
 main a {
     text-decoration-style: double;
     color: orangered;
+    font-family: 'Nunito', sans-serif;
 }
 
 main span {
     color: orangered;
     font-family: 'Nunito', sans-serif;
+}
+
+main p {
+    font-family: 'Source Code Pro', monospace;
 }
 
 
