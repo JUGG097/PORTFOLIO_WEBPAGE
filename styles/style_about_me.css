@@ -97,6 +97,10 @@ main p {
     font-family: 'Source Code Pro', monospace;
 }
 
+main p b {
+    color: orangered;
+}
+
 /* -------------------------- /MAIN ---------------------------- */
 
 

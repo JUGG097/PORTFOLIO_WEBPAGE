@@ -88,6 +88,22 @@ main h2 {
     top: 150px;
 }
 
+main h3 {
+    background-color: darkorange;
+}
+
+
+main p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+main p span {
+    color: orangered;
+    font-style: oblique;
+    font-weight: bolder;
+    text-decoration: underline orangered;
+}
+
 
 
 /* -------------------------- /MAIN ---------------------------- */
